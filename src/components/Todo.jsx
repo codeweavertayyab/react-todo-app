@@ -48,10 +48,8 @@ const Todo = () => {
        
       <div className="flex justify-between flex-col lg:flex-row">
         <section>
-          <h1 className="lg:text-4xl text-3xl px-5 font-bold text-indigo-600 text-center">
-            CREATE TASK TO DO
-          </h1>
-          <div className="h-[500px] lg:w-[40vw] w-full rounded-lg my-5 border shadow-2xl lg:p-20 p-5 flex flex-col justify-center">
+         
+          <div className="h-[500px] lg:w-[40vw] w-full rounded-lg  border shadow-2xl lg:p-20 p-5 flex flex-col justify-center">
             <div className="flex flex-col my-2">
               <label htmlFor="title" className="text-3xl font-semibold">
                 Title:
@@ -98,11 +96,9 @@ const Todo = () => {
           </div>
         </section>
 
-        <section className="lg:mt-0 mt-6">
-          <h1 className="lg:text-4xl text-3xl px-5 font-bold text-indigo-600 text-center">
-            LIST OF TASKS
-          </h1>
-          <div className="h-max lg:w-[50vw] w-full rounded-lg border my-5 shadow-2xl lg:p-20 p-5 flex flex-col ">
+        <section>
+         
+          <div className="h-max lg:w-[50vw] w-full rounded-lg border  shadow-2xl lg:p-20 p-5 flex flex-col ">
             <div className="flex flex-col gap-3">
               {getTodo.map((tod) => (
                 <div
