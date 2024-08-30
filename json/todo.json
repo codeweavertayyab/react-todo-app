@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": "dcb16b2e-2dc2-4ad1-b8d2-80395b4b842f",
+      "title": "iPhone 3d web",
+      "description": "today i will make a footer component"
+    },
+    {
+      "id": "4825b106-461c-4eca-8e24-7e740ee2ab00",
+      "title": "Canva clone",
+      "description": "excited to make the clone of clone"
+    },
+    {
+      "id": "144a63d2-6c8b-44bd-9b59-b706ad7a84c7",
+      "title": "Meeting",
+      "description": "Meeting with HR at 5:00"
+    },
+    {
+      "id": "fa40f07f-c844-4d33-9533-b28c353abab9",
+      "title": "Lunch",
+      "description": "lunch at ghalib at night"
+    }
+  ]
+}
