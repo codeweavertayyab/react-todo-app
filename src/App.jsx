@@ -4,7 +4,7 @@ import Todo from "./components/Todo";
 
 function App() {
   return (
-    <div className="h-full w-full lg:p-16 p-6 py-20 font-poppins">
+    <div className="h-full w-full lg:p-16 p-6 lg:py-20 py-4 font-poppins">
       <h1 className="lg:text-6xl text-2xl text-center font-semibold lg:mt-5 mt-2 mb-20 flex lg:flex-row flex-col justify-center">
         TodoApp By
         <a
